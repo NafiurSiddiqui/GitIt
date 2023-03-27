@@ -1,10 +1,10 @@
-function gitStat{
+function gitIt{
 
-   param([string]$message)
    git status
    git add -A
-   git commit -m "$message" 
+   git commit -m "$arg[0]"
+   git push
 }
 
 
-gitStat
+gitIt "default powerShell commit" 
