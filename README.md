@@ -20,3 +20,7 @@ To automate task like runing same series of git command.
 **NOTE:** You can name the file anything you want.
 
 That is it. Feel free to customize the function to suit your scenario. 🙌
+
+## gitIt-2
+
+`gitIt-1` is something you want to use in case the first code commits only [0], even if you provided a message.
